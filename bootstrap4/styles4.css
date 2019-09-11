@@ -1,0 +1,42 @@
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+#cover {
+    background: #222 url('../bootstrap4/img/kerala.jpg') center center no-repeat;
+    background-size: cover;
+    color: black;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#cover-caption{
+	width: 100%;
+}
+.foot1{
+
+      display: block;
+   list-style: none;
+   display: inline;
+   text-align: center;
+}
+
+   .unstyled{
+      display: block;
+   list-style: none;
+   margin-right: 0px;
+   display: inline;
+   text-align: center;
+   }
+   footer{
+      background:#e3e7f1;
+      margin-top: 100px;
+      text-decoration:none;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+text-align: center;
+   }
