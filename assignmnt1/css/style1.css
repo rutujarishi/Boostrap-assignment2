@@ -1,4 +1,6 @@
-
+/* --------------------------------------
+   aside
+   -------------------------------------- */
 aside {
 	
 	float: right;
@@ -6,6 +8,9 @@ aside {
 	
 
 }
+/* --------------------------------------
+   list  tag
+   -------------------------------------- */
 li{
 	display : inline;
 	list-style: none;
@@ -17,16 +22,25 @@ li{
 	letter-spacing: 1px;
 	font-family: Raleway,sans-serif;
 }
+/* --------------------------------------
+   Class yes
+   -------------------------------------- */
 .yes li{
 	float:right;
 	margin: 7px 0px 50px 9px
 
 }
+/* --------------------------------------
+   header
+   -------------------------------------- */
 header{
 	position: fixed;
-	margin-top: -50px;
+	margin-top: -130px;
 	width: 100%;
 }
+/* --------------------------------------
+   header anchr tag
+   -------------------------------------- */
 header	a{
 		text-decoration: none;
 		padding-bottom: : -10000px; 
@@ -37,6 +51,9 @@ ul a:hover{
 color: green;
 
 }
+/* --------------------------------------
+   wrap class
+   -------------------------------------- */
 .wrap{
 	background: url(../img/canvas.png) no-repeat;
 	text-indent: -99999px;
@@ -47,10 +64,16 @@ color: green;
 /*.wrap h1{
 	margin:-100px 0px 0px 0px;
 }*/
-.tree{
+/* --------------------------------------
+   class tree
+   -------------------------------------- */
+.container{
 	background: grey;
 	margin-top: 90px
 }
+/* --------------------------------------
+   footer
+   -------------------------------------- */
 footer{
 	background: grey;
 margin-top: 100px;
@@ -58,14 +81,23 @@ padding: 10px 10px;
 color: rgba(255,255,255,0.25);
 border-bottom-color: rgba(255,255,255,0.25);
 }
+/* --------------------------------------
+   footer anchor tag
+   -------------------------------------- */
 footer a{
 	text-decoration:none;
 	color: rgba(255,255,255,0.25);
 text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
+/* --------------------------------------
+   class main
+   -------------------------------------- */
 .main{
 	margin-top: 90px
 }
+/* --------------------------------------
+   Class main1
+   -------------------------------------- */
 .main1{
 	margin: auto;
 	width: 100%;
@@ -84,7 +116,11 @@ text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 	margin: 1px 0px 0px 0px;
 	padding-bottom: -100px;
 }
-.goat{
+
+/* --------------------------------------
+   Class goat
+   -------------------------------------- */
+.canvas{
 	background: white;
 
 	}
